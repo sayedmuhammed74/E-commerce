@@ -1,5 +1,6 @@
 import CartProduct from '@/components/CartProduct';
 import Link from 'next/link';
+import { cart } from './../../public/cart.js';
 const Cart = ({ cart }) => {
   return (
     <section>
@@ -38,12 +39,12 @@ const Cart = ({ cart }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/cart');
-  const data = await res.json();
+  // const res = await fetch('http://localhost:3000/api/cart');
+  // const data = await res.json();
 
   return {
     props: {
-      cart: data,
+      cart: cart,
     },
   };
 }

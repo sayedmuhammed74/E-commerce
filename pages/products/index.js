@@ -1,4 +1,5 @@
 import Product from '@/components/Product';
+import { products } from './../../public/data.js';
 const Products = ({ products }) => {
   // console.log(products);
   return (
@@ -13,12 +14,11 @@ const Products = ({ products }) => {
 };
 
 export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/products');
-  const data = await res.json();
-
+  // const res = await fetch('http://localhost:3000/api/products');
+  // const data = await res.json();
   return {
     props: {
-      products: data,
+      products: products,
     },
   };
 }
