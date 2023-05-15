@@ -1,0 +1,12 @@
+_id,available,description,id,image,name,nums,price,slug
+645d7e96214c672a089b1359,true,this is an amazing watch,1,./products/product-1.jpg,T-Shirt,5,55$,red-t-shirt
+645d7e96214c672a089b135a,true,this is amazing t-shirt,2,./products/product-2.jpg,shoes,5,59$,black-shoes
+645d7e96214c672a089b135c,true,this is amazing pants,3,./products/product-3.jpg,Pants,5,59$,gray-pants
+645d7e96214c672a089b135d,true,this is amazing t-shirt,4,./products/product-4.jpg,T-shirt,5,20$,black-t-shirt
+645d7e96214c672a089b135e,true,this is amazing shoes,5,./products/product-5.jpg,Gray Shoes,5,30$,gray-shoes
+645d7e96214c672a089b135f,true,this is amazing t-shirt,6,./products/product-6.jpg,Green T-shirt,5,22$,green-t-shirt
+645d7e96214c672a089b1360,true,this is amazing socks,7,./products/product-7.jpg,Socks,5,10$,socks
+645d7e96214c672a089b1361,true,this is an amazing watch,8,./products/product-8.jpg,watch,5,59$,black-watch
+645d7e96214c672a089b1362,true,this is an amazing watch,9,./products/product-9.jpg,watch,5,50$,black-watch
+645d7e96214c672a089b1363,true,this is amazing snickers,10,./products/product-10.jpg,Snickers,5,80$,black-snikers
+645d7e96214c672a089b1365,true,this is amazing shoes,11,./products/product-11.jpg,Gray Shoes,5,59$,gary-shoes

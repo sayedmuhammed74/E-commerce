@@ -1,0 +1,4 @@
+sayedmohamed123sm74
+UuzzdxgpXSjTqntP
+
+mongodb+srv://sayedmohamed123sm74:<password>@cluster0.itow9xs.mongodb.net/
