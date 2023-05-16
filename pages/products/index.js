@@ -1,7 +1,6 @@
 import Product from '@/components/Product';
 import { products } from './../../public/data.js';
 const Products = ({ products }) => {
-  // console.log(products);
   return (
     <section>
       <div className="container mx-auto px-6 py-5 flex flex-col items-center justify-center md:flex-row flex-wrap gap-5">

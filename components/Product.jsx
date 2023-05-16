@@ -2,7 +2,7 @@ import React from 'react';
 
 const Product = ({ product }) => {
   return (
-    <div className="md:w-1/5 flex flex-col p-3 shadow-xl space-y-1">
+    <div className="md:w-1/5 flex flex-col p-3 shadow-xl space-y-1 rounded-2xl">
       {/* <div className="bg-gray-400"> */}
       <img src={product.image} alt={product.name} className="aspect-square" />
       {/* </div> */}

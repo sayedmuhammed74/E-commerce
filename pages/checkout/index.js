@@ -32,10 +32,12 @@ const Checkout = () => {
 
   const pay = (e) => {
     e.preventDefault();
-    shipping.current.classList.add('hidden');
-    order.current.classList.add('hidden');
-    bill.current.classList.remove('hidden');
-    window.scroll(0, 0);
+    if (card_number) {
+      shipping.current.classList.add('hidden');
+      order.current.classList.add('hidden');
+      bill.current.classList.remove('hidden');
+      window.scroll(0, 0);
+    }
   };
 
   return (
