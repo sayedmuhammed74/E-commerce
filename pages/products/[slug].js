@@ -1,11 +1,17 @@
 import React from 'react';
 import { products } from '@/public/data';
 import Product from '@/components/Product';
+import Head from 'next/head';
 const ProductPage = ({ product }) => {
   return (
-    <div className="flex justify-center items-center">
-      <Product product={product} />
-    </div>
+    <>
+      <Head>
+        <title>{product.name}</title>
+      </Head>
+      <div className="flex justify-center items-center">
+        <Product product={product} />
+      </div>
+    </>
   );
 };
 
