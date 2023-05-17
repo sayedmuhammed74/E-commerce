@@ -9,7 +9,7 @@ const Product = ({ product }) => {
       {/* </div> */}
       <div className="flex justify-between">
         <h1 className="font-medium text-xl">
-          <Link href={`/products/${product.id}`}>{product.name}</Link>
+          <Link href={`/products/${product.slug}`}>{product.name}</Link>
         </h1>
         <span className="font-medium text-lg">{product.price}</span>
       </div>

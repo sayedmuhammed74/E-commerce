@@ -82,7 +82,7 @@ export const products = [
   {
     id: '9',
     name: 'watch',
-    slug: 'black-watch',
+    slug: 'gray-watch',
     price: '50$',
     available: true,
     nums: 5,
@@ -102,7 +102,7 @@ export const products = [
   {
     id: '11',
     name: 'Gray Shoes',
-    slug: 'gary-shoes',
+    slug: 'gary-flat-shoes',
     price: '59$',
     available: true,
     nums: 5,
