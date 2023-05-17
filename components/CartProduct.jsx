@@ -1,6 +1,6 @@
 const CartProduct = ({ product }) => {
   return (
-    <div className="md:w-1/4 flex flex-col p-3 shadow-xl">
+    <div className="md:w-1/4 flex flex-col p-3 shadow-xl rounded-xl bg-white">
       {/* <div> */}
       <img src={product.image} alt={product.name} className="aspect-square" />
       {/* </div> */}

@@ -42,7 +42,7 @@ const Checkout = () => {
 
   return (
     <section>
-      <div className="container mx-auto px-6 py-5 flex flex-col items-center h-fit">
+      <div className="container mx-auto px-6 py-5 flex flex-col items-center h-fit bg-white">
         <h1 className="font-semibold text-2xl my-5 text-slate-900">Checkout</h1>
         <div className="shadow-lg p-10">
           <ul className="flex gap-5 text-heading">
@@ -60,7 +60,7 @@ const Checkout = () => {
             </li>
           </ul>
 
-          <div className="relative min-h-[120vh]">
+          <div className="relative ">
             {/* shipping */}
             <div ref={shipping} className=" w-full">
               <h3 className="font-medium text-xl text-heading my-5">

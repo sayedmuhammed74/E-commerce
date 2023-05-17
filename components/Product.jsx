@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Product = ({ product }) => {
@@ -7,7 +8,9 @@ const Product = ({ product }) => {
       <img src={product.image} alt={product.name} className="aspect-square" />
       {/* </div> */}
       <div className="flex justify-between">
-        <h1 className="font-medium text-xl">{product.name}</h1>
+        <h1 className="font-medium text-xl">
+          <Link href={`/products/${product.id}`}>{product.name}</Link>
+        </h1>
         <span className="font-medium text-lg">{product.price}</span>
       </div>
       <p className="text-slate-500">{product.description}</p>

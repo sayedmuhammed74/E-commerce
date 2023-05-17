@@ -1,6 +1,6 @@
 export const products = [
   {
-    id: 1,
+    id: '1',
     name: 'T-Shirt',
     slug: 'red-t-shirt',
     price: '55$',
@@ -10,7 +10,7 @@ export const products = [
     description: 'this is an amazing watch',
   },
   {
-    id: 2,
+    id: '2',
     name: 'shoes',
     slug: 'black-shoes',
     price: '59$',
@@ -20,7 +20,7 @@ export const products = [
     description: 'this is amazing t-shirt',
   },
   {
-    id: 3,
+    id: '3',
     name: 'Pants',
     slug: 'gray-pants',
     price: '59$',
@@ -30,7 +30,7 @@ export const products = [
     description: 'this is amazing pants',
   },
   {
-    id: 4,
+    id: '4',
     name: 'T-shirt',
     slug: 'black-t-shirt',
     price: '20$',
@@ -40,7 +40,7 @@ export const products = [
     description: 'this is amazing t-shirt',
   },
   {
-    id: 5,
+    id: '5',
     name: 'Gray Shoes',
     slug: 'gray-shoes',
     price: '30$',
@@ -50,7 +50,7 @@ export const products = [
     description: 'this is amazing shoes',
   },
   {
-    id: 6,
+    id: '6',
     name: 'Green T-shirt',
     slug: 'green-t-shirt',
     price: '22$',
@@ -60,7 +60,7 @@ export const products = [
     description: 'this is amazing t-shirt',
   },
   {
-    id: 7,
+    id: '7',
     name: 'Socks',
     slug: 'socks',
     price: '10$',
@@ -70,7 +70,7 @@ export const products = [
     description: 'this is amazing socks',
   },
   {
-    id: 8,
+    id: '8',
     name: 'watch',
     slug: 'black-watch',
     price: '59$',
@@ -80,7 +80,7 @@ export const products = [
     description: 'this is an amazing watch',
   },
   {
-    id: 9,
+    id: '9',
     name: 'watch',
     slug: 'black-watch',
     price: '50$',
@@ -90,7 +90,7 @@ export const products = [
     description: 'this is an amazing watch',
   },
   {
-    id: 10,
+    id: '10',
     name: 'Snickers',
     slug: 'black-snikers',
     price: '80$',
@@ -100,7 +100,7 @@ export const products = [
     description: 'this is amazing snickers',
   },
   {
-    id: 11,
+    id: '11',
     name: 'Gray Shoes',
     slug: 'gary-shoes',
     price: '59$',
